@@ -1,0 +1,51 @@
+.taskbar{
+    background-color: rgb(1, 0, 83);
+    border: 0.5px solid rgba(255, 255, 255, 0.603);
+    width: fit-content;
+    margin: 0 auto;
+    justify-content: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px ;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;  
+    margin-right: 90px;
+    margin-left: 125px;
+}
+
+
+.tasks{
+  justify-content: center;
+  display: flex;
+  align-items: center;   
+  
+}
+
+
+.socialMedia{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 125px;
+    margin-right: 125px;
+    
+}
+
+.tasks p{
+  
+  margin: 15px;
+  font-size: 25px;
+  color: white;
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.taskbar p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
