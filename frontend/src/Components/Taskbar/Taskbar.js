@@ -6,10 +6,8 @@ import { FaInstagram, FaTwitter, FaTiktok } from "react-icons/fa";
 const Taskbar = () => {
     return (
         <div className='taskbar'>
-            <div className='logo'>
-              <img src={logo} width={50} alt=''></img>
-            </div>
             <div className='tasks'>
+            <img src={logo} width={50} alt=''></img>
               <p>Inicio</p>
               <p>Sorteo</p>
                <p>Prediccion</p>
