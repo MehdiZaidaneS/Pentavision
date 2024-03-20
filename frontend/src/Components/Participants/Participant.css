@@ -1,0 +1,32 @@
+.participant{
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+   
+    margin-top: 5px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.participant p{
+    font-size: 15px;
+    margin: 5px;
+}
+
+.participant h3{
+    margin-left: 10px;
+    margin: 0 auto;
+}
+
+.participant div{
+    margin-left: 15px;
+} 
+
+.estrellas{
+    
+    align-items: center;
+   
+}
