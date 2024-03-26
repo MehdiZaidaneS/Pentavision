@@ -1,7 +1,6 @@
 
 import './App.css';
 import Banner from './Components/Banner/Banner';
-import Participant from './Components/Participants/Participant';
 import Table from './Components/Table/Table';
 import Taskbar from './Components/Taskbar/Taskbar';
 
@@ -11,9 +10,6 @@ function App() {
       <Taskbar />
       <Banner />
       <Table />
-      
-      
-
     </div>
   );
 }
